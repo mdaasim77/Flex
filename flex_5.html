@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-5</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: #1e1a1a;
+        }
+        .container{
+            max-width: 1200px;
+            width: 100%;
+        }
+        h1{
+            color: #ff4500;
+            text-align: center;
+        }
+        .multi-section{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .content{
+            padding: 20px;
+        }
+        .column{
+            width: 30%;
+            border: 5px solid black;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .column > .heading {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        }
+
+        .column-1{
+            background-color: #2a9bad;
+        }
+        .column-2{
+            background-color: #9f3f5a;
+        }
+        .column-3{
+            background-color: #652591;
+        }
+        .heading{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Full Stack Web Development</h1>
+        <section class="multi-section">
+        <div class="column column-1">
+            <h2 class="heading">HTML</h2>
+            <img src="New folder/html5.png" alt="LOGO">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, veniam obcaecati. Iusto aperiam, illo quidem itaque sapiente consectetur quas, fugit eligendi cupiditate quisquam consequatur facilis odit illum exercitationem molestias aspernatur non velit aut ipsum a enim. Quia amet dolore commodi facilis iusto libero natus sapiente reprehenderit nihil ad pariatur ducimus, atque molestias suscipit est. Vero at unde eius sint, mollitia minus sapiente facere rerum debitis voluptas eos voluptatum accusamus est, maxime nesciunt alias earum sit labore deserunt amet laboriosam nihil. Quam, velit! Minima quidem qui laudantium provident maiores quibusdam obcaecati ex, asperiores deleniti dolore praesentium fugiat quas. Corrupti maiores, quidem perferendis temporibus, ipsam ex omnis porro dolor odio eos numquam incidunt. Facere, sed doloribus ducimus sunt quis eos. Ullam laboriosam ipsam hic ipsa assumenda optio consequatur molestias placeat. Nostrum consequuntur officia voluptatum eum recusandae ex qui repudiandae tempore cum laborum. Reprehenderit dolor doloribus iste id. Perferendis dolorum harum totam beatae.</p>
+        </div>
+        <div class="column column-2">
+            <h2 class="heading">CSS</h2>
+            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="LOGO">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, veniam obcaecati. Iusto aperiam, illo quidem itaque sapiente consectetur quas, fugit eligendi cupiditate quisquam consequatur facilis odit illum exercitationem molestias aspernatur non velit aut ipsum a enim. Quia amet dolore commodi facilis iusto libero natus sapiente reprehenderit nihil ad pariatur ducimus, atque molestias suscipit est. Vero at unde eius sint, mollitia minus sapiente facere rerum debitis voluptas eos voluptatum accusamus est, maxime nesciunt alias earum sit labore deserunt amet laboriosam nihil. Quam, velit! Minima quidem qui laudantium provident maiores quibusdam obcaecati ex, asperiores deleniti dolore praesentium fugiat quas. Corrupti maiores, quidem perferendis temporibus, ipsam ex omnis porro dolor odio eos numquam incidunt. Facere, sed doloribus ducimus sunt quis eos. Ullam laboriosam ipsam hic ipsa assumenda optio consequatur molestias placeat. Nostrum consequuntur officia voluptatum eum recusandae ex qui repudiandae tempore cum laborum. Reprehenderit dolor doloribus iste id. Perferendis dolorum harum totam beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quod soluta corrupti natus sequi dolores reprehenderit dicta doloremque neque facilis sit possimus, quos hic id sed modi obcaecati animi error et! Vero cumque numquam omnis quasi aliquam sint pariatur maiores expedita hic, laudantium at qui fugit error quod ipsum aut.</p>
+        </div>
+        <div class="column column-3">
+            <h2 class="heading">JavaScript</h2>
+            <img src="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png" alt="LOGO">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, veniam obcaecati. Iusto aperiam, illo quidem itaque sapiente consectetur quas, fugit eligendi cupiditate quisquam consequatur facilis odit illum exercitationem molestias aspernatur non velit aut ipsum a enim. Quia amet dolore commodi facilis iusto libero natus sapiente reprehenderit nihil ad pariatur ducimus, atque molestias suscipit est. Vero at unde eius sint, mollitia minus sapiente facere rerum debitis voluptas eos voluptatum accusamus est, maxime nesciunt alias earum sit labore deserunt amet laboriosam nihil. Quam, velit! Minima quidem qui laudantium provident maiores quibusdam obcaecati ex, asperiores deleniti dolore praesentium fugiat quas. Corrupti maiores, quidem perferendis temporibus, ipsam ex omnis porro dolor odio eos numquam</p>
+        </div>
+        </section>
+    </div>
+</body>
+</html>
